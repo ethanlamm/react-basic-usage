@@ -24,8 +24,8 @@ function Profile() {
     return (
         <div>
             Profile
-            <div>name:{name}</div>
-            <div>age:{age}</div>
+            <div>name: {name}</div>
+            <div>age: {age}</div>
             <div>
                 <button onClick={setNameHandler}>修改name</button>
                 <button onClick={setAgeHandler}>修改name</button>

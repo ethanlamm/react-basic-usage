@@ -21,6 +21,7 @@ function About() {
         <div>
             About
             <div style={{ color: 'blue', cursor: 'pointer' }} onClick={goHome}>&lt;——back to home</div>
+            <div>Mbox + axios</div>
             <ul>
                 {
                     about.categoryList?.length && about.categoryList.map(item =>

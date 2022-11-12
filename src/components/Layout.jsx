@@ -18,6 +18,15 @@ function Layout() {
                         <li>
                             <Link to={`/todo`}>todo——Redux</Link>
                         </li>
+                        <li>
+                            <Link to={`/categoryAll`}>categoryAll——RTKQ——GET</Link>
+                        </li>
+                        <li>
+                            <Link to={`/categoryById`}>categoryById——RTKQ——GET</Link>
+                        </li>
+                        <li>
+                            <Link to={`/searchProd`}>searchProd——RTKQ——POST</Link>
+                        </li>
                     </ul>
                 </nav>
             </div>

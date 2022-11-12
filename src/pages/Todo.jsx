@@ -1,5 +1,4 @@
-import React from 'react'
-import { useState } from 'react'
+import React, { useState } from 'react'
 
 import { useDispatch, useSelector } from 'react-redux'
 import { add } from '../store-Redux/slices/todoSlice'
@@ -28,6 +27,7 @@ function Todo() {
     return (
         <div>
             <p>任务列表</p>
+            <div>prepare: 预处理函数: 处理action的payload字段, 必须返回一个包含payload的对象, 其他: meta、error...</div>
             <ul>
                 {list.map(todo => (
                     <li key={todo.id}>

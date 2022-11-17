@@ -28,7 +28,7 @@ function Profile() {
             <div>age: {age}</div>
             <div>
                 <button onClick={setNameHandler}>修改name</button>
-                <button onClick={setAgeHandler}>修改name</button>
+                <button onClick={setAgeHandler}>修改age</button>
             </div>
         </div>
     )

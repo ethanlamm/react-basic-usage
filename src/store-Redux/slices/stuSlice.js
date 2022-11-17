@@ -41,4 +41,4 @@ export const { setName, setAge } = stuSlice.actions
 // action 对象的结构 { type: '该reducer切片的name/函数名', payload:调用action创建器时的参数 }
 
 // 导出reducer，需要用于创建store(configureStore)
-export default stuSlice.reducer
+export default stuSlice

@@ -12,8 +12,8 @@ import searchSlice from './apis/search'
 const store = configureStore({
     // 合并多个Slice
     reducer: {
-        student: stuSlice,
-        todo: todoSlice,
+        student: stuSlice.reducer,
+        todo: todoSlice.reducer,
         [categorySlice.reducerPath]: categorySlice.reducer,
         [searchSlice.reducerPath]: searchSlice.reducer
     },

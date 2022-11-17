@@ -17,9 +17,11 @@ function Profile() {
     return (
         <div>
             <div>Profile</div>
+            <div>未持久存储——刷新丢失</div>
             <div>count: {count}</div>
             <button onClick={clickHandler2}>+</button>
             <hr />
+            <div>持久存储——刷新不丢失</div>
             <div>name: {name}</div>
             <div>salary: {salary}</div>
             <button onClick={clickHandler1}>+</button>

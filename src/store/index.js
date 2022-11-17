@@ -6,20 +6,32 @@ import storage from 'redux-persist/lib/storage'
 import count from './slices/count'
 import profile from './slices/profile'
 
-const persistConfig = {
-    key: 'redux-persist',
+// 分开存储
+const rootPersistConfig = {
+    key: 'root',
     storage,
-    // 指定哪些reducer数据持久化(reducer的名字)
-    whitelist: ['profile']
-    // 若多个仓库写在一起，持久存储会在同一个中
-    //  whitelist: ['profile','count']
+    whitelist: [],
 }
 
+const profilePersistConfig = {
+    key: 'profile',
+    storage,
+}
+
+// const persistConfig = {
+//     key: 'redux-persist',
+//     storage,
+//     // 指定哪些reducer数据持久化(reducer的名字)
+//     whitelist: ['profile']
+//     // 若多个仓库写在一起，持久存储会在同一个中
+//     //  whitelist: ['profile','count']
+// }
+
 const persistedReducer = persistReducer(
-    persistConfig,
+    rootPersistConfig,
     combineReducers({
         count,
-        profile
+        profile: persistReducer(profilePersistConfig, profile)
     })
 )
 

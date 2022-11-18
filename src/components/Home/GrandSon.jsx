@@ -1,8 +1,11 @@
 import React from 'react'
 
-function GrandSon() {
+function GrandSon({ children }) {
     return (
-        <div>GrandSon</div>
+        <div>
+            <div>GrandSon</div>
+            {children}
+        </div>
     )
 }
 

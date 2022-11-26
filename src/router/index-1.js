@@ -1,12 +1,12 @@
 // 引入组件
 import Layout from "../components/Layout";
-import Home from '../pages/Home'
-import About from '../pages/About'
-import Profile from '../pages/Profile'
-import Todo from '../pages/Todo'
-import GategoryAll from '../pages/GategoryAll'
-import GategoryById from '../pages/GategoryById'
-import SearchProd from '../pages/SearchProd'
+import Home from '../pages/Mobx/Home'
+import About from '../pages/Mobx/About'
+import Profile from '../pages/Redux/Profile'
+import Todo from '../pages/Redux/Todo'
+import GategoryAll from '../pages/RTKQ/GategoryAll'
+import GategoryById from '../pages/RTKQ/GategoryById'
+import SearchProd from '../pages/RTKQ/SearchProd'
 import Error from "../components/Error";
 
 const routes = [

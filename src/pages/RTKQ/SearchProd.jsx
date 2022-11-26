@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { useSearchProdMutation } from '../store-Redux/apis/search'
+import { useSearchProdMutation } from '../../store-Redux/apis/search'
 
 function SearchProd() {
     const [page, setPage] = useState(1)

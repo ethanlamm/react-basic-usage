@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { useGetCategoryByIdQuery } from '../store-Redux/apis/category'
+import { useGetCategoryByIdQuery } from '../../store-Redux/apis/category'
 
 function GategoryById() {
     const [id, setId] = useState('1011000')

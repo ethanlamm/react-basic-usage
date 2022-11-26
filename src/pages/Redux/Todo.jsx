@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import { useDispatch, useSelector } from 'react-redux'
-import { add } from '../store-Redux/slices/todoSlice'
+import { add } from '../../store-Redux/slices/todoSlice'
 
 function Todo() {
 

@@ -3,7 +3,7 @@ import React from 'react'
 // useSelector 从 store 中获取数据
 // useDispatch 派发 actions
 import { useSelector, useDispatch } from 'react-redux'
-import { setName, setAge } from '../store-Redux/slices/stuSlice'
+import { setName, setAge } from '../../store-Redux/slices/stuSlice'
 
 function Profile() {
     // 通过useSelector获取store中的数据

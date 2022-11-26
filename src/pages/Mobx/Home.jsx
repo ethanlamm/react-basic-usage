@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react'
 
-import useStore from '../store-Mobx'
+import useStore from '../../store-Mobx'
 import { observer } from 'mobx-react-lite'
 
 

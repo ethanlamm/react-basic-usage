@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { useGetAllCategoryQuery } from '../store-Redux/apis/category'
+import { useGetAllCategoryQuery } from '../../store-Redux/apis/category'
 
 function GategoryAll() {
     const { data, isSuccess } = useGetAllCategoryQuery()

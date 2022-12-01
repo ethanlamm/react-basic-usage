@@ -10,6 +10,7 @@ function Layout() {
                     <li> <Link to={'/'}>useEffect</Link></li>
                     <li> <Link to={'useReducer'}>useReducer</Link></li>
                     <li> <Link to={'useContext'}>useContext</Link></li>
+                    <li> <Link to={'reactMemo'}>React.memo</Link></li>
                 </ul>
             </nav>
             <Outlet></Outlet>

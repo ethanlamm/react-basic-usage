@@ -2,7 +2,7 @@ import React from 'react'
 
 function GrandSon({ children }) {
     return (
-        <div>
+        <div style={{ padding: '10px' }}>
             <div>GrandSon</div>
             {children}
         </div>

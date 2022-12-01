@@ -8,7 +8,7 @@ function Layout() {
             <nav>
                 <ul>
                     <li>
-                        <Link to={`/`}>home</Link>
+                        <Link to={`/`}>home——props</Link>
                     </li>
                     <li>
                         <Link to={`/profile`}>profile——Redux-Persist</Link>

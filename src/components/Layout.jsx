@@ -6,7 +6,9 @@ function Layout() {
         <div>
             <div>Layout</div>
             <nav>
-
+                <ul>
+                    <li> <Link to={'/'}>useEffect</Link></li>
+                </ul>
             </nav>
             <Outlet></Outlet>
         </div>

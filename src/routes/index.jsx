@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
-import Home from "../components/Home/Father";
-import Profile from "../components/Profile";
+import Home from "../pages/Home/Father";
+import Profile from "../pages/Profile";
 
 const routes = [
     {

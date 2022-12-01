@@ -1,8 +1,8 @@
 import React from 'react'
 
 import { useSelector, useDispatch } from 'react-redux'
-import { addSalary } from '../../store/slices/profile'
-import { addCount } from '../../store/slices/count'
+import { addSalary } from '../store/slices/profile'
+import { addCount } from '../store/slices/count'
 
 function Profile() {
     const { name, salary } = useSelector(state => state.profile)

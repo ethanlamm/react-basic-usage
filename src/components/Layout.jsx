@@ -8,6 +8,7 @@ function Layout() {
             <nav>
                 <ul>
                     <li> <Link to={'/'}>useEffect</Link></li>
+                    <li> <Link to={'useReducer'}>useReducer</Link></li>
                 </ul>
             </nav>
             <Outlet></Outlet>

@@ -5,7 +5,7 @@ import Home from "../pages/Home";
 import ReactFC from "../pages/ReactFC";
 import ReactComponent from "../pages/ReactComponent";
 import ReactReducer from "../pages/ReactReducer";
-
+import ReactContext from "../pages/ReactContext";
 
 const routes: RouteObject[] = [
     {
@@ -16,6 +16,7 @@ const routes: RouteObject[] = [
             { path: 'ReactFC', element: <ReactFC /> },
             { path: 'ReactComponent', element: <ReactComponent /> },
             { path: 'ReactReducer', element: <ReactReducer /> },
+            { path: 'ReactContext', element: <ReactContext /> },
         ]
     }
 ]

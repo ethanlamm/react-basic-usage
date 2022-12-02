@@ -10,6 +10,7 @@ function Layout() {
                     <li><Link to='ReactFC'>React.FC&lt;P&gt;</Link></li>
                     <li><Link to='ReactComponent'>React.Component&lt;P,S&gt;</Link></li>
                     <li><Link to='ReactReducer'>React.Reducer&lt;S,A&gt;</Link></li>
+                    <li><Link to='ReactContext'>React.Context&lt;T&gt;</Link></li>
                 </ul>
             </nav>
             <Outlet />

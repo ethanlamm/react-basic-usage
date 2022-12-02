@@ -2,10 +2,10 @@ import type { RouteObject } from "react-router-dom";
 
 import Layout from "../components/Layout";
 import Home from "../pages/Home";
-import ReactFC from "../pages/ReactFC";
-import ReactComponent from "../pages/ReactComponent";
-import ReactReducer from "../pages/ReactReducer";
-import ReactContext from "../pages/ReactContext";
+import ReactFC from "../pages/builtInFunctions/ReactFC";
+import ReactComponent from "../pages/builtInFunctions/ReactComponent";
+import ReactReducer from "../pages/builtInFunctions/ReactReducer";
+import ReactContext from "../pages/builtInFunctions/ReactContext";
 
 const routes: RouteObject[] = [
     {

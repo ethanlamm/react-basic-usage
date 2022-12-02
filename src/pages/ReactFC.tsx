@@ -16,7 +16,7 @@ const ReactFCDemo: React.FC<Props> = ({ name }) => {
 function ReactFC() {
     return (
         <div>
-            <div>React.FC&lt;P&gt;</div>
+            <div>ReactFC</div>
             <div>Hello <ReactFCDemo name='React.FC<P>' /></div>
         </div>
     )

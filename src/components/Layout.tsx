@@ -8,6 +8,7 @@ function Layout() {
                 <ul>
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='ReactFC'>React.FC&lt;P&gt;</Link></li>
+                    <li><Link to='ReactComponent'>React.Component&lt;P,S&gt;</Link></li>
                 </ul>
             </nav>
             <Outlet />

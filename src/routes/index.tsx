@@ -7,7 +7,7 @@ import ReactComponent from "../pages/builtInFunctions/ReactComponent";
 import ReactReducer from "../pages/builtInFunctions/ReactReducer";
 import ReactContext from "../pages/builtInFunctions/ReactContext";
 import EventParameter from "../pages/eventHandlingFunctions/EventParameter";
-
+import FormEvent from "../pages/eventHandlingFunctions/FormEvent";
 
 const routes: RouteObject[] = [
     {
@@ -20,6 +20,7 @@ const routes: RouteObject[] = [
             { path: 'ReactReducer', element: <ReactReducer /> },
             { path: 'ReactContext', element: <ReactContext /> },
             { path: 'EventParameter', element: <EventParameter /> },
+            { path: 'FormEvent', element: <FormEvent /> },
         ]
     }
 ]

@@ -12,6 +12,7 @@ function Layout() {
                     <li><Link to='ReactReducer'>React.Reducer&lt;S,A&gt;</Link></li>
                     <li><Link to='ReactContext'>React.Context&lt;T&gt;</Link></li>
                     <li><Link to='EventParameter'>EventParameter</Link></li>
+                    <li><Link to='FormEvent'>FormEvent</Link></li>
                 </ul>
             </nav>
             <Outlet />

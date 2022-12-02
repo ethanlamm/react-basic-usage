@@ -9,7 +9,7 @@ import ReactContext from "../pages/builtInFunctions/ReactContext";
 import EventParameter from "../pages/eventHandlerFunctions/EventParameter";
 import FormEvent from "../pages/eventHandlerFunctions/FormEvent";
 import CommonFunction from "../pages/eventHandlerFunctions/CommonFunction";
-
+import ReactProps from "../pages/ReactProps";
 
 const routes: RouteObject[] = [
     {
@@ -24,6 +24,7 @@ const routes: RouteObject[] = [
             { path: 'EventParameter', element: <EventParameter /> },
             { path: 'FormEvent', element: <FormEvent /> },
             { path: 'CommonFunction', element: <CommonFunction /> },
+            { path: 'ReactProps', element: <ReactProps /> },
         ]
     }
 ]

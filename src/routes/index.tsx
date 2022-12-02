@@ -6,6 +6,8 @@ import ReactFC from "../pages/builtInFunctions/ReactFC";
 import ReactComponent from "../pages/builtInFunctions/ReactComponent";
 import ReactReducer from "../pages/builtInFunctions/ReactReducer";
 import ReactContext from "../pages/builtInFunctions/ReactContext";
+import EventParameter from "../pages/eventHandlingFunctions/EventParameter";
+
 
 const routes: RouteObject[] = [
     {
@@ -17,6 +19,7 @@ const routes: RouteObject[] = [
             { path: 'ReactComponent', element: <ReactComponent /> },
             { path: 'ReactReducer', element: <ReactReducer /> },
             { path: 'ReactContext', element: <ReactContext /> },
+            { path: 'EventParameter', element: <EventParameter /> },
         ]
     }
 ]

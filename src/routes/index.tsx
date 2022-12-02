@@ -6,8 +6,10 @@ import ReactFC from "../pages/builtInFunctions/ReactFC";
 import ReactComponent from "../pages/builtInFunctions/ReactComponent";
 import ReactReducer from "../pages/builtInFunctions/ReactReducer";
 import ReactContext from "../pages/builtInFunctions/ReactContext";
-import EventParameter from "../pages/eventHandlingFunctions/EventParameter";
-import FormEvent from "../pages/eventHandlingFunctions/FormEvent";
+import EventParameter from "../pages/eventHandlerFunctions/EventParameter";
+import FormEvent from "../pages/eventHandlerFunctions/FormEvent";
+import CommonFunction from "../pages/eventHandlerFunctions/CommonFunction";
+
 
 const routes: RouteObject[] = [
     {
@@ -21,6 +23,7 @@ const routes: RouteObject[] = [
             { path: 'ReactContext', element: <ReactContext /> },
             { path: 'EventParameter', element: <EventParameter /> },
             { path: 'FormEvent', element: <FormEvent /> },
+            { path: 'CommonFunction', element: <CommonFunction /> },
         ]
     }
 ]

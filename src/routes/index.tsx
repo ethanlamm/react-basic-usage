@@ -11,7 +11,7 @@ import FormEvent from "../pages/eventHandlerFunctions/FormEvent";
 import CommonFunction from "../pages/eventHandlerFunctions/CommonFunction";
 import ReactProps from "../pages/ReactProps";
 import UseState from "../pages/hooks/UseState";
-
+import UseEffect from "../pages/hooks/UseEffect";
 
 
 
@@ -31,6 +31,7 @@ const routes: RouteObject[] = [
             { path: 'CommonFunction', element: <CommonFunction /> },
             { path: 'ReactProps', element: <ReactProps /> },
             { path: 'UseState', element: <UseState /> },
+            { path: 'UseEffect', element: <UseEffect /> },
         ]
     }
 ]

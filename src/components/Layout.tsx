@@ -16,6 +16,7 @@ function Layout() {
                     <li><Link to='CommonFunction'>CommonFunction</Link></li>
                     <li><Link to='ReactProps'>ReactProps</Link></li>
                     <li><Link to='UseState'>useState</Link></li>
+                    <li><Link to='UseEffect'>useEffect</Link></li>
                 </ul>
             </nav>
             <Outlet />

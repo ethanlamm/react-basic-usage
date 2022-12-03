@@ -15,6 +15,7 @@ function Layout() {
                     <li><Link to='FormEvent'>FormEvent</Link></li>
                     <li><Link to='CommonFunction'>CommonFunction</Link></li>
                     <li><Link to='ReactProps'>ReactProps</Link></li>
+                    <li><Link to='UseState'>useState</Link></li>
                 </ul>
             </nav>
             <Outlet />

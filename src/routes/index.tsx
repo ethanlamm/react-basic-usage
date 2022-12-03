@@ -13,7 +13,7 @@ import ReactProps from "../pages/ReactProps";
 import UseState from "../pages/hooks/UseState";
 import UseEffect from "../pages/hooks/UseEffect";
 import UseRef from "../pages/hooks/UseRef";
-
+import UseReducer from "../pages/hooks/UseReducer";
 
 
 const routes: RouteObject[] = [
@@ -33,6 +33,7 @@ const routes: RouteObject[] = [
             { path: 'UseState', element: <UseState /> },
             { path: 'UseEffect', element: <UseEffect /> },
             { path: 'UseRef', element: <UseRef /> },
+            { path: 'UseReducer', element: <UseReducer /> },
         ]
     }
 ]

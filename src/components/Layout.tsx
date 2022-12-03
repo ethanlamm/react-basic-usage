@@ -18,6 +18,7 @@ function Layout() {
                     <li><Link to='UseState'>useState</Link></li>
                     <li><Link to='UseEffect'>useEffect</Link></li>
                     <li><Link to='UseRef'>useRef</Link></li>
+                    <li><Link to='UseReducer'>useReducer</Link></li>
                 </ul>
             </nav>
             <Outlet />

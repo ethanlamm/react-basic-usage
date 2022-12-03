@@ -17,6 +17,7 @@ function Layout() {
                     <li><Link to='ReactProps'>ReactProps</Link></li>
                     <li><Link to='UseState'>useState</Link></li>
                     <li><Link to='UseEffect'>useEffect</Link></li>
+                    <li><Link to='UseRef'>useRef</Link></li>
                 </ul>
             </nav>
             <Outlet />

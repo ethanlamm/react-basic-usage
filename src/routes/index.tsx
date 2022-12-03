@@ -12,7 +12,7 @@ import CommonFunction from "../pages/eventHandlerFunctions/CommonFunction";
 import ReactProps from "../pages/ReactProps";
 import UseState from "../pages/hooks/UseState";
 import UseEffect from "../pages/hooks/UseEffect";
-
+import UseRef from "../pages/hooks/UseRef";
 
 
 
@@ -32,6 +32,7 @@ const routes: RouteObject[] = [
             { path: 'ReactProps', element: <ReactProps /> },
             { path: 'UseState', element: <UseState /> },
             { path: 'UseEffect', element: <UseEffect /> },
+            { path: 'UseRef', element: <UseRef /> },
         ]
     }
 ]
